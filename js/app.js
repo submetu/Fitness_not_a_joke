@@ -17,5 +17,5 @@ $("#food-list img").click(function(){
 });
 
 $(overlay).click(function(){
-    $overlay.fadeOut(200);
+    $overlay.fadeOut(200    );
 });

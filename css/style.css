@@ -4,6 +4,7 @@ body{
 }
 .main-header{
     height:725px;
+    width:auto;
     margin: 0 -10px 10% -10px;
     background: linear-gradient(dimgray,transparent 90%),
                 linear-gradient(0deg,white,transparent),
@@ -49,7 +50,6 @@ body{
     margin-right:20px;  
     
 }
-
 
 
 
@@ -142,10 +142,14 @@ body{
 
 
 /*HOME CONTENT */
+#home-content-one{
+        padding-bottom:31%;
+    }
+       
 .home-content{
     font-size: 1.5em;
     background-color: rgba(255,255,255,0.6);
-    height:430px;
+    height:57%;
     width:60%;
     margin:12% auto;
     padding: 5% 5% ;
@@ -197,7 +201,30 @@ footer {
     
 }
 
-?
-/*home-content-imgs*/
 
+/*MEDIA QUERIES*/
 
+@media (max-width: 760px) {
+    .home-content-heading{
+        font-size:3rem;
+    }
+    .home-content{
+        font-size:1.2em;
+        height:77%;
+        
+    }
+    #content-one,#content-two,#content-three{
+        height:500px;
+    }
+    .food-gallery{
+        font-size:0.8rem;
+    }
+    .main-header{
+        height:600px;
+        font-size: 0.7rem;
+    }
+    #home-content-one{
+        height:85%;
+    }
+        
+}
