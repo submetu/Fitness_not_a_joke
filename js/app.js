@@ -18,11 +18,13 @@ $("#food-list img").click(function(){
     var caption=$(this).attr("title");
     $caption.text(caption);
     $image.attr("src",source);
+    $("nav").hide(500);
     $overlay.fadeIn(300);
 });
 
 $(overlay).click(function(){
-    $overlay.fadeOut(200    );
+    $("nav").show(300);
+    $overlay.fadeOut(200);
 });
 
 $(".food-gallery span").click(function(){
