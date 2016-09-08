@@ -1,0 +1,4 @@
+$(".animsition").animsition(
+    {   loading:true,
+    }
+);
